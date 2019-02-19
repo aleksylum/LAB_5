@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ArrayOfAnimal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Animal>
+    <AName>Выдра</AName>
+    <ALatName>Lutra lutra</ALatName>
+    <AClass>Млекопитающие</AClass>
+    <AWeight>100000</AWeight>
+  </Animal>
+  <Animal>
+    <AName>Аксолотль</AName>
+    <ALatName>Ambystoma mexicanum</ALatName>
+    <AClass>Земноводные</AClass>
+    <AWeight>300</AWeight>
+  </Animal>
+  <Animal>
+    <AName>Шмель</AName>
+    <ALatName>Bombus</ALatName>
+    <AClass>Насекомые</AClass>
+    <AWeight>0.1</AWeight>
+  </Animal>
+  <Animal>
+    <AName>Летучая мышь</AName>
+    <ALatName>Microchiroptera</ALatName>
+    <AClass>Млекопитающие</AClass>
+    <AWeight>300</AWeight>
+  </Animal>
+  <Animal>
+    <AName>Жираф</AName>
+    <AClass>Млекопитающие</AClass>
+    <AWeight>800000</AWeight>
+  </Animal>
+</ArrayOfAnimal>
