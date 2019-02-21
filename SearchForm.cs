@@ -25,7 +25,7 @@ namespace lab_5
 			for (int i=0;i< dataGridView.ColumnCount-1;++i)
 			{
 				cbFields.Items.Add(dataGridView.Columns[i].HeaderText);
-			}
+			}//доб в combobox возмож назв полей для поиска
 			cbFields.SelectedIndex = 0;
 		}
 

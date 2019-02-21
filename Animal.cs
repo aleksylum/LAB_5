@@ -12,7 +12,7 @@ namespace lab_5
 		[DisplayName("Название: ")]
 		[Description("наименование животного.")]
 		public string AName { get; set; }
-
+        
 		[DisplayName("Латин. название: ")]
 		[Description("название животного на латыни.")]
 		public string ALatName { get; set; }

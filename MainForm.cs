@@ -57,7 +57,7 @@ namespace lab_5
 		}
 
 		private void dataGridView_SelectionChanged(object sender, EventArgs e)
-		{
+		{//передвинули выделение в таблице
 		
 			if (dataGridView.CurrentRow != null)
 			{
@@ -129,7 +129,7 @@ namespace lab_5
 		}
 
 		private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
-		{
+		{//доп. обработчик
 			if (Db.animalList.Count<=1) {
 				bindingNavigator.DeleteItem.Enabled = false;
 			}
